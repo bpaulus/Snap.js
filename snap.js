@@ -212,7 +212,7 @@
                         action.translate.x(n);
                     }
                     if(n===0){
-                           settings.element.style[cache.vendor+'Transform'] = '';
+                           settings.element.style[cache.vendor+'Transform'] = undefined;
                        }
                 },
                 x: function(n) {
